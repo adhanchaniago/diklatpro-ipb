@@ -1,0 +1,2 @@
+1. Logo dilkat profesi sudah ada. cek logonya di folder GAMBAR
+2. Ubah warna dasar temanya sesuai logo (hijau dan merah) lebih banyak proporsi warna hijau, misal header, warna font dll.
