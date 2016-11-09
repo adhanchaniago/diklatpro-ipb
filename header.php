@@ -27,7 +27,7 @@
                 <li>
                     <div class="dropdown">
                         <a data-toggle="dropdown" data-target="#" href="/page.html">
-                Dropdown <span class="caret"></span>
+                Layanan <span class="caret"></span>
             </a>
                         <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
                             <li class="dropdown-submenu">
@@ -44,8 +44,8 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="#" data-hover="Berita">Berita</a></li>
-                <li><a href="#" data-hover="Jadwal">Jadwal</a></li>
+                <li><a class="scroll" href="#jadwalberita" data-hover="Berita">Berita</a></li>
+                <li><a class="scroll" href="#jadwalberita" data-hover="Jadwal">Jadwal</a></li>
                 <li><a href="#" data-hover="Kontak Kami">Kontak Kami</a></li>
                 <li><a href="#" data-hover="Pendaftaran">Pendaftaran</a></li>
 
