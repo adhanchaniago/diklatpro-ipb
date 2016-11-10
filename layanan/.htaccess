@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^in-house-training$ in-house.php [L]
+RewriteRule ^(admin|user)($|/) - [L]
+Options All -Indexes
+</IfModule>

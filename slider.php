@@ -3,7 +3,7 @@
 			<div class="callbacks_container">
 				<ul class="rslides" id="slider">
 					<li>
-						<div class="crop">
+						<div class="slider-img">
 							<img src="images/banner1.jpg" class="img-responsive" alt="Real Plot">
 						</div>
 						<div class="slider-info">

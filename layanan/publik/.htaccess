@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+RewriteRule ^haccp$ haccp.php [L]
+RewriteRule ^iso-22000$ iso-22000.php [L]
+RewriteRule ^pangan-organik$ pangan-organik.php [L]
+RewriteRule ^(admin|user)($|/) - [L]
+
+Options All -Indexes
+</IfModule>
