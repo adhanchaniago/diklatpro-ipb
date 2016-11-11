@@ -31,8 +31,8 @@
                         </ul>
                     </div>
                 </li>
-                <li><a class="scroll" href="<?php echo PROJECT_ROOT;?>index.php#jadwalberita" data-hover="Berita">Berita</a></li>
-                <li><a class="scroll" href="<?php echo PROJECT_ROOT;?>index.php#jadwalberita" data-hover="Jadwal">Jadwal</a></li>
+                <li><a class="scroll" href="<?php echo PROJECT_ROOT;?>index.php#jadwalberita" data-hover="Berita">Jadwal</a></li>
+                <li><a href="http://info.diklatprofesi.com" data-hover="Jadwal">Berita</a></li>
                 <li><a class="scroll" href="<?php echo PROJECT_ROOT;?>index.php#kontakami" data-hover="Kontak Kami">Kontak Kami</a></li>
                 <li><a href="<?php echo PROJECT_ROOT;?>pendaftaran" data-hover="Pendaftaran">Pendaftaran</a></li>
             </ul>

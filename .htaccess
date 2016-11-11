@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+#RewriteRule ^([^\.]+)$ $1.php [L]
+RewriteRule ^editevent-(.*)$ editevent.php?id=$1 [L]
+RewriteRule ^deleteevent-(.*)$ deleteevent.php?id=$1 [L]
+RewriteRule ^viewevent-(.*)$ viewevent.php?id=$1 [L]
+RewriteRule ^give-(.*)$ givepoint.php?id=$1 [L]
+RewriteRule ^tentang-kami$ tentangkami.php [L]
+RewriteRule ^pendaftaran$ pendaftaran.php [L]
+RewriteRule ^services$ layanan.php [L]
+RewriteRule ^jadwal$ index.php#jadwalberita [L]
+RewriteRule ^berita$ index.php#jadwalberita [L]
+RewriteRule ^home$ index.php [L]
+RewriteRule ^(admin|user)($|/) - [L]
+
+Options All -Indexes
+</IfModule>
